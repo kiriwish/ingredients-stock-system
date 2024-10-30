@@ -1,0 +1,50 @@
+/* Floating Button Style */
+.floating-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1000; /* Keeps it on top */
+}
+
+/* Icon style */
+.floating-btn i {
+    margin-right: 5px;
+}
+
+/* Notification Panel */
+.notification-panel {
+    position: fixed;
+    bottom: 80px;
+    left: 20px;
+    width: 250px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    display: none; /* Hidden by default */
+    z-index: 1000;
+}
+
+.notification-panel h4 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+.notification-panel ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.notification-panel ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}

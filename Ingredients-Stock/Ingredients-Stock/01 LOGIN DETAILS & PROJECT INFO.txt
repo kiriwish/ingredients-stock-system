@@ -1,0 +1,11 @@
+**Database Name: ingredientstock**
+
+
+**Recommended PHP Version 5.6 or Newer**
+
+
+**Admin Login Details**
+
+Username: kirwa
+Password: 123456
+
